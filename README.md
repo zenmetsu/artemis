@@ -66,7 +66,7 @@ I plan on building my own flight director attitude indicator (FDAI). The origina
 
 #### DSKY
 I will need to build a custom DiSplay/KeYboard (DSKY) unit.  I am well aware of the opensource DSKY unit, but the cost of the unit cannot be justified, especially considering that my DSKY will need to control many vehicle functions via GPIO which would require significant modifications to the opensource model.  I am unhappy with the looks of using 7-segment LED units, so I would prefer to homebrew something to give the high contrast and crisp display of the original electroluminescent modules.  I will attempt to follow the excellent project that <a href="https://www.youtube.com/@AppliedScience">Applied Science</a> posted on youtube here:
-<a href="https://www.youtube.com/watch?feature=player_embedded&v=v=Z2o_Sp2-aBo" target="_blank">
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=Z2o_Sp2-aBo" target="_blank">
  <img src="https://img.youtube.com/vi/Z2o_Sp2-aBo/0.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
