@@ -77,7 +77,7 @@ I will need to build a custom DiSplay/KeYboard (DSKY) unit.  I am well aware of 
 ## Roadmap
 
 - [ ] repaint Jeep body
-    - [x] select paint to match original tone 
+    - [x] [select paint to match original tone](log/paint/readme.md)
 - [ ] build dashboard
     - [ ] build custom gauges
         - [ ] linear style vertical gauges
