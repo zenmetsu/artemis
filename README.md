@@ -57,12 +57,40 @@ This project will encompass the transformation of my 1965 CJ-5 to something uniq
 This project will require me to build many of my own custom gauges:  
 
 #### FDAI
-I plan on building my own flight director attitude indicator (FDAI).  
+I plan on building my own flight director attitude indicator (FDAI). The original units could drive the ball in pitch and yaw, but roll was indicated by an arrow marker which moved around the outer perimeter.  My FDAI will be completely driven via 3 micro stepper motors and will have a multitude of modes that it can operate in.  Of these:
+* traditional pitch/yaw + roll marker
+* full pitch/yaw/roll (basically a ball compass)
+* full target mode (zeros indicate vehicle pointed at destination in 3-space)
+* navigation mode (pitch/yaw/roll with deltas from locked target shown via the 3 error bars)
+* orbital mode (ball remains fixed to earth, polar axis and rotation)
 
 #### DSKY
 I will need to build a custom DiSplay/KeYboard (DSKY) unit.  I am well aware of the opensource DSKY unit, but the cost of the unit cannot be justified, especially considering that my DSKY will need to control many vehicle functions via GPIO which would require significant modifications to the opensource model.  I am unhappy with the looks of using 7-segment LED units, so I would prefer to homebrew something to give the high contrast and crisp display of the original electroluminescent modules.  I will attempt to follow the excellent project that <a href="https://www.youtube.com/@AppliedScience">Applied Science</a> posted on youtube here:
 
 [![Applied Science](https://img.youtube.com/vi/Z2o_Sp2-aBo/0.jpg)](https://www.youtube.com/watch?v=Z2o_Sp2-aBo)
+
+Thanks to the advancement in computing over the past 50 years, my DSKY will host an internal computer in the form of a microcontroller.  I am still in the process of selecting a candidate, but it will likely be an STM32 or RISC-V part. 
+The unit will have the following functions:
+* program modes similar to the original
+    *  0 - Idle
+    *  1 - Ignition
+    *  6 - Shutdown
+    * 12 - Cruise
+    * 20 - Navigation
+    * 21 - GPS location , ball shows LAT/LONG, LAT/LONG/ALT shown on display in monitor mode
+    * 51 - Align ball to earth's axis
+    * 52 - IMU align
+    * 57 - Align ball to moon's axis
+    *  ? - Diagnostics  
+* automated control of various systems, with ability to override via keyboard commands or switches on the dash
+    * cooling fan
+    * starter motor 
+    * ignition coil power
+    * aux fuel pump
+    * lighting (light sensor actuated)
+    * comms
+        * APRS beaconing
+        * js8call message relay 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
