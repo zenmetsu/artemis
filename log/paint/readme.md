@@ -1,4 +1,4 @@
-# Details surrounding the painting process.
+# Details surrounding the painting process
 
 ## 22 NOV 2022
 
