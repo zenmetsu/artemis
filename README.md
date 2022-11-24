@@ -9,7 +9,8 @@
 <h3 align="center">artemis</h3>
 
   <p align="center">
-    An Apollo program inspired Jeep CJ-5 build.
+    An Apollo program inspired Jeep CJ-5 build
+    <br />
     <br />
     <a href="https://github.com/zenmetsu/artemis"><strong>Explore the docs »</strong></a>
     <br />
