@@ -51,7 +51,7 @@
     <img src="images/console01.jpg" alt="Logo" width="180" height="180">
   </a>
 
-This project will encompass the transformation of my 1965 CJ-5 to something unique from the period.  In deciding upon a new dashboard layout, I wanted to do something unusual which would showcase the many skills that I have learned over a lifetime of tinkering and learning.  I have long had a fascination with the great space race, and I felt that an aerospace aesthetic would suit this vehicle well.  As such, I have decided to theme my dashboard in a manner reminiscent of the control consoles of the Apollo program.  
+This project will encompass the transformation of my 1965 CJ-5 to something unique from the period.  In deciding upon a new dashboard layout, I wanted to do something unusual which would showcase the many skills that I have learned over a lifetime of tinkering and creating.  I have long had a fascination with the great space race, and I felt that an aerospace aesthetic would suit this vehicle well.  As such, I have decided to theme my dashboard in a manner reminiscent of the control consoles of the Apollo program.  
 
 ## Instrumentation
 This project will require me to build many of my own custom gauges:  
