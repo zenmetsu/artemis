@@ -93,6 +93,28 @@ The unit will have the following functions:
     * comms
         * APRS beaconing
         * js8call message relay 
+* sensors (via a CAN bus)
+    * fuel level
+    * fuel pressure
+    * coolant temperature
+    * oil pressure
+    * vacuum
+    * spark sensor
+        * tachometer
+        * possible DIY method for crank position detection
+        * possible detection of piston contribution issues
+    * air/fuel ratio (left and right banks)
+    * exhaust gas temperature (left and right banks)
+    * main battery bus voltage
+    * ammeter
+    * aux battery bus voltage (radio)
+    * light level (visible, IR, UV)
+    * humidity
+    * barometer
+    * thermometer
+    * anemometer
+    * lightning detector
+* logging of sensor data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
