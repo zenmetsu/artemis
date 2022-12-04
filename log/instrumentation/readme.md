@@ -19,6 +19,6 @@ I have secured a large assortment of push/pull Klixon-style circuit breakers to 
 - [ ] durable
 
 ### Current tasks
-#### 2022.WE47
+#### 2022.W47
 Looking for a source of two or three position toggle switches that are durable and match the appearance of the original switches.
 
