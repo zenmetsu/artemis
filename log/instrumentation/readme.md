@@ -3,6 +3,8 @@
 ### Planning
 03 DEC 2022
 I have secured a large assortment of push/pull Klixon-style circuit breakers to replace the fuses.  These will be dash-mounted.
+<img src="images/circuitbreakers.jpg" alt="Logo" width="180" height="180">
+
 
 ### Goals
 - [ ] overall aviation/aerospace aesthetic
