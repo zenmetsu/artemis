@@ -19,9 +19,25 @@ I am investigating the potential to use surface-mount LEDs covered by a 3D-print
 
 As an initial implementation, I am going to use a 256x128 pixel graphical VFD.  
 
+MCU selected is STM32H743ZI.
+
+VFD is driven via an 8bit parallel peripheral, using hardware acceleration.  Soon to attempt DMA.  Differential framebuffer currently averages 180FPS for most content.
+
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=XFZPoMXJEX4" target="_blank">
+ <img src="https://img.youtube.com/vi/XFZPoMXJEX4/0.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 ### Task Timeline
 #### 2022.W47
-- [ ] get VFD working with dev board
-- [ ] determine refresh rate for fullscreen update
+- [x] get VFD working with dev board
+- [x] determine refresh rate for fullscreen update
 - [ ] build keyboard
+#### 2022.W50
+- [x] improve framebuffer code (currently 60fps for full screen refresh)
+- [x] code screensavers (need eyecandy, plus i don't want to burn in the display)
+- [ ] add initial program modes
+- [ ] code astronomical formulae into system and test
+- [ ] integrate GPS
+- [ ] integrate IMU
+- [ ] add Floyd-Steinberg dithering
+- [ ] add 3D rasterization
