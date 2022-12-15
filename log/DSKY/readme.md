@@ -40,8 +40,8 @@ One thing that I wanted was a proper 3D engine, but I have had a miserable time 
 #### 2022.348
 I managed to create some 24x32 bitmapped fonts and recreated the DSKY display.  I am feeding it bogus data, but in this video I have elapsed time since start showing on line 1.  Going to add my RTC and GPS next, along with IMU and then attempt to recreate the original memory mapping so I can have some semblance of authenticity.
 
-<a href="https://www.youtube.com/watch?feature=player_embedded&v=XFZPoMXJEX4" target="_blank">
- <img src="https://img.youtube.com/vi/XFZPoMXJEX4/0.jpg" alt="Watch the video" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=AGZGYjbvkzs" target="_blank">
+ <img src="https://img.youtube.com/vi/AGZGYjbvkzs/0.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
 ### Task Timeline
