@@ -44,6 +44,9 @@ I managed to create some 24x32 bitmapped fonts and recreated the DSKY display.  
  <img src="https://img.youtube.com/vi/AGZGYjbvkzs/0.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
+#### 2022.350
+Integration of GPS, RTC module, and various other peripherals via SPI.  
+
 ### Task Timeline
 #### 2022.W47
 - [x] get VFD working with dev board
