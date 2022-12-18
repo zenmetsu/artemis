@@ -47,6 +47,8 @@ I managed to create some 24x32 bitmapped fonts and recreated the DSKY display.  
 #### 2022.350
 Integration of GPS, RTC module, and various other peripherals via SPI.  
 
+GPS, RTC and SX1509 GPIO expander have been added. Tomorrow will entail creation of a proper DSKY keyboard utilizing Gateron Green switches.
+
 ### Task Timeline
 #### 2022.W47
 - [x] get VFD working with dev board
